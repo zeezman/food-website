@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px 50px;
+    display: flex; 
+    justify-content: space-between;
+    z-index: 999;
+    background-color: rgba(134, 62, 62, 0.897);
+    align-items: center;
+    transition: 0.3s;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 3px rgb(63, 42, 42);
+}
+
+.logo { 
+    text-decoration: none;
+    color: rgb(50, 138, 39);
+    font-size: 2em;
+    font-weight: bolder; 
+}
+
+.logo span{
+    font-size: 1em;
+}
+
+.navigation {
+    position: relative;
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+li{
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    justify-content: center;
+    padding: 20px 30px;
+    
+}
+
+a:hover{
+    color: rgb(212, 226, 21);
+    font-size: 1.3em; 
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 620px;
+    background-image: url(food.jfif);
+    background-size: cover; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    text-align: center;  
+}
+.content h1{
+    color: white;
+    font-size: 4em;
+}
+p{
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.btn {
+    color: white;
+    margin-top: 13px;
+    padding: 10px 10px;
+    display: inline-block;
+    background-color: rgb(207, 18, 18);
+    text-transform: capitalize;
+    font-size: 1em;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    letter-spacing: 5px;
+}
+
+ 
+.ab {
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+    display: flex; 
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.mytext {
+    position: relative;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h2 span{
+    color: red;
+    font-size: 2.5em;
+}
+
+.mytext p {
+    color: black;
+    font-size: 1em;
+}
+
+.imgbox {
+    position: relative;
+    width: 50%;
+}
+
+.az {
+    width: 100%;
+    height: 100%; 
+    margin-left: 60px;
+}
+
+img { 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.titletext { 
+    flex-direction: column;
+     width: 100%; 
+     display: flex; 
+     margin-top: 20px;
+     justify-content: center;
+     align-items: center;   
+ }
+ .titletext p{
+     color: black;
+ }
+
+ .container { 
+     width: 100%; 
+     justify-content: center;
+     display: flex; 
+     flex-wrap: wrap;  
+     margin-top: 20PX;
+ } 
+
+ .content2 {
+    width: 300px;  
+    margin: 20px;
+ }
+
+ .imgbox1 {
+     position: relative; 
+      width: 100%;
+     height: 100%; 
+     box-shadow: 3px 4px 4px rgb(75, 67, 67);
+ }
+ .text{
+     margin-top: 10px; 
+ }
+
+.mybon{
+    padding-left: 180px;
+} 
+
+.container2{
+    width: 100%;  
+    justify-content: center;
+    display: flex; 
+    flex-wrap: wrap;  
+    margin-top: 10PX; 
+    padding-bottom: 30px;
+} 
+
+.content3 { 
+    width: 220px; 
+    margin: 40px;
+ }
+ .titletext .h {
+     color: white;
+ }
+ .titletext .k {
+     color: white;
+ }
+
+ .testimonial { 
+     background-image: url(g.jpg);
+     background-size: cover; 
+ }
+ 
+
+.mycontainer{    
+    justify-content: center; 
+    display: flex;  
+    flex-wrap: wrap;
+    flex-direction: row; 
+    margin-top: 25px; 
+} 
+
+.mycontent{  
+     width: 300px; 
+     background: linear-gradient(rgb(84, 84, 150),rgb(107, 37, 48));
+    margin: 30px; 
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+} 
+
+.myimage {  
+    margin-bottom: 30px;
+    overflow: hidden;
+    width: 40px;
+    height: 50px; 
+    box-sizing: border-box;
+    border-radius: 70px;
+    position: relative;
+}
+
+.mycontent p{ 
+    color: rgb(238, 238, 238);
+}
+ .mycontent img { 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+
+.fcontainer{
+    justify-content: center; 
+    display: flex;  
+    flex-wrap: wrap; 
+    margin-top: 25px; 
+    margin-bottom: 30px; 
+}
+
+.fcontainer .formcontent {
+    position: relative;
+    padding: 30px; 
+    min-width: 400px;
+    margin: 20px;
+    background: rgb(173, 162, 162);
+    box-shadow: 7px 7px 7px rgba(59, 4, 4, 0.671);   
+} 
+ 
+
+input[type=text] {  
+    color: rgb(26, 2, 2); 
+    border: 2px solid black;   
+    padding: 20px;
+    width: 400px;
+    font-size: 1em;
+    display: inline-block; 
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+input[type=email] {  
+    color: rgb(0, 0, 0); 
+    border: 2px solid black;   
+    padding: 20px;
+    width: 400px;
+    font-size: 1em;
+    display: inline-block; 
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+input[type=submit] {  
+    color: rgb(255, 255, 255); 
+    font-size: 1em;
+    border: 2px solid rgb(255, 255, 255);   
+    padding: 20px;
+    width: 400px;
+    background: rgb(182, 61, 61);
+    display: inline-block; 
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
